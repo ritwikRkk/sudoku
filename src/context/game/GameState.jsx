@@ -201,7 +201,7 @@ const GameState = (props) => {
             // let questionSud = genSudokuQuestion(sudokuBase, level);
             return {
                 original: sudokuBase,
-                question: genSudokuQuestion(sudokuBase, 1)
+                question: genSudokuQuestion(sudokuBase, level)
             }
         }
         return undefined;
