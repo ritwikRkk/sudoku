@@ -1,0 +1,82 @@
+
+.cells-container{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid black;
+    border-radius: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cells-container input{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    outline: none;
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 5px;
+    /* border: none; */
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #BDCDD6; 
+    color: white;
+    cursor: pointer;
+}
+input:hover{
+    border: 2px solid blue !important;
+}
+.selected{
+    /* position: relative;
+    z-index: 2; */
+    background-color: aqua !important;
+}
+.input-border{
+    border: 2px solid red !important;
+}
+.pt-none{
+    pointer-events: none;
+    background-color: rgba(47, 43, 43, 0.422) !important;
+    /* color: rgb(192, 248, 185) !important; */
+    color: black !important;
+}
+
+.bg-red{
+    background-color: red !important;
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .cells-container{
+        height: 30px;
+        width: 30px;
+    }
+    .cells-container input{
+        height: 28px;
+        width: 28px;
+    }
+    .mb{
+        margin-bottom: 5px;
+    }
+    .mr{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .cells-container{
+        height: 25px;
+        width: 25px;
+    }
+    .cells-container input{
+        height: 23px;
+        width: 23px;
+        font-size: 1rem;
+    }
+}
