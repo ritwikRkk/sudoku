@@ -1,5 +1,5 @@
 
-# Project Title
+# iSudoku
 
 An immersive Sudoku game using ReactJS, blending intuitive gameplay with a responsive and enjoyable user interface.
 
@@ -51,6 +51,11 @@ Start the server
 
 ## Resources
 [Create React App](https://create-react-app.dev/docs/getting-started)
+## Roadmap
+
+- save the game locally(on user's device), to resume the last game after device restart.
+
+
 ## Report Issues
 [Report Issues](https://github.com/ritwikRkk/sudoku/issues/new)
 ## 🔗 Connect with me
